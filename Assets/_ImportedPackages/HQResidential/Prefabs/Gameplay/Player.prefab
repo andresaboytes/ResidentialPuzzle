@@ -47,8 +47,6 @@ GameObject:
   - component: {fileID: 8884907148075200208}
   - component: {fileID: 8884907148075200045}
   - component: {fileID: 8884907148075200215}
-  - component: {fileID: 8884907148075200214}
-  - component: {fileID: 8884907148075200212}
   - component: {fileID: 8884907148075200213}
   m_Layer: 0
   m_Name: Player
@@ -140,9 +138,9 @@ MonoBehaviour:
   _gravityScale: -9.81
   _sensibility: {x: 600, y: 600}
   _playerCamera: {fileID: 8884907149257104178}
-  _walkAudio: {fileID: 0}
-  _walkSound: {fileID: 0}
-  _runSound: {fileID: 0}
+  _walkAudio: {fileID: 8884907148075200213}
+  _walkSound: {fileID: 8300000, guid: e4bcae25850f47f47b22d515bff8a70b, type: 3}
+  _runSound: {fileID: 8300000, guid: b9bf9db7bab609b4c976ea5c795f1387, type: 3}
 --- !u!143 &8884907148075200046
 CharacterController:
   m_ObjectHideFlags: 0
@@ -206,44 +204,6 @@ MonoBehaviour:
   inventoryUI: {fileID: 0}
   items: []
   _movement: {fileID: 8884907148075200044}
---- !u!114 &8884907148075200214
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8884907148075200047}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba1a04a8aff330847b9c48950898ccd2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _blowRadius: 15
-  _coolDownTime: 3
-  _playerItems: {fileID: 8884907148075200215}
-  _whistleyData: {fileID: 11400000, guid: 802e1f8f54f14a04aadcb15c3ebf8e78, type: 2}
-  _whistleySound: {fileID: 8300000, guid: 445967dbdd82e6f449eabc04bbd69184, type: 3}
-  _whistleNumberText: {fileID: 0}
---- !u!114 &8884907148075200212
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8884907148075200047}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eaf273ebed2a8fd4c9efe1f49af2c176, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _turnSpeed: 2
-  _eyes: {fileID: 8884907149257104178}
-  _fps: {fileID: 8884907148075200044}
-  _whistle: {fileID: 8884907148075200214}
-  _sight: {fileID: 8884907148075200208}
-  _grab: {fileID: 8884907148075200045}
-  _items: {fileID: 8884907148075200215}
-  _head: {fileID: 0}
 --- !u!82 &8884907148075200213
 AudioSource:
   m_ObjectHideFlags: 0
