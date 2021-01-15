@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: Post processing Volume Profile
   m_EditorClassIdentifier: 
   settings:
-  - {fileID: 1482578471575304295}
   - {fileID: 1049748586537618924}
 --- !u!114 &1049748586537618924
 MonoBehaviour:
@@ -64,22 +63,3 @@ MonoBehaviour:
   quality:
     overrideState: 1
     value: 2
---- !u!114 &1482578471575304295
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45ff67bebe1f81a478dc9dfbf8705551, type: 3}
-  m_Name: UPGEN_Lighting
-  m_EditorClassIdentifier: 
-  active: 1
-  enabled:
-    overrideState: 1
-    value: 1
-  intensity:
-    overrideState: 1
-    value: 1

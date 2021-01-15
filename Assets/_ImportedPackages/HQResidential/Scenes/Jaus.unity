@@ -10160,7 +10160,7 @@ MonoBehaviour:
     m_Bits: 256
   stopNaNPropagation: 1
   finalBlitToCameraTarget: 0
-  antialiasingMode: 3
+  antialiasingMode: 1
   temporalAntialiasing:
     jitterSpread: 0.75
     sharpness: 0.25
@@ -10204,6 +10204,42 @@ MonoBehaviour:
       PublicKeyToken=null
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
+--- !u!114 &1533019668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533019665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5720f3e4091d5649966a31a0c9adc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationCount: 4
+  stepCount: 8
+  radius: 3.5
+  expStart: 1
+  expFactor: 1
+  jitterSamples: 1
+  GIBoost: 20
+  lightBufferHDR: 0
+  lightBufferResolution: 2
+  LnDlOffset: 0
+  nDlOffset: 0
+  power: 1.5
+  thickness: 10
+  falloff: 1
+  multiBounceAO: 0
+  directLightingAO: 0
+  fallbackMethod: 0
+  cubemapFallback: {fileID: 0}
+  resolutionDownscale: 2
+  reuseCount: 5
+  temporalEnabled: 1
+  temporalResponse: 0.35
+  debugMode: 7
+  lightOnly: 0
 --- !u!1001 &1543792857
 PrefabInstance:
   m_ObjectHideFlags: 0
